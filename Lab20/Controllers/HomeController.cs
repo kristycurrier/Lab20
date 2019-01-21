@@ -20,9 +20,9 @@ namespace Lab20.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Portfolio()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Portfolio";
 
             return View();
         }
